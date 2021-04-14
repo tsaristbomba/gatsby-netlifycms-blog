@@ -4,10 +4,10 @@ backend:
 
 media_folder: static/img
 public_folder: /img
-locale: pt-br
 
 collections:
   - name: 'blog'
+    locale: 'pt-br'
     label: 'Blog'
     folder: 'content/blog'
     create: true
